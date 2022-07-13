@@ -2,23 +2,39 @@
 // NOTE: hint - can use an array that contains objects
 var questions = [
     {
-        question:"What is 2 + 2?",
-        answers: [3, 4, 5, 6],
+        question:"What does HTML stand for?",
+        answers: [
+            "How To Make Links",
+            "HyperText Markup Language",
+            "Homing Tool Markup Language",
+            "HyperText Making Language"],
         correctanswer: 1,
     },
     {
-        question:"What is 5 x 3?",
-        answers: [20, 35, 8, 15],
+        question:"Which HTML element allows a developer to create an unordered list?",
+        answers: [
+            "<h1></h1>", 
+            "<div></div>", 
+            "<li></li>", 
+            "<ul></ul>"],
         correctanswer: 3,
     },
     {
-        question:"What is 20 - 10?",
-        answers: [10, 2, 30, 200],
+        question:"Using CSS, how would a developer change the font on their webpage to look bold?",
+        answers: [
+            "Use font-weight: ", 
+            "<b></b>", 
+            "Use font-style", 
+            "Write in all caps"],
         correctanswer: 0,
     },
     {
-        question: "What is 100 / 4?",
-        answers: [50, 75, 25, 30],
+        question: "How should an IF statement be written in javascript?",
+        answers: [
+            "if i==1", 
+            "if i>1 then", 
+            "if (i > 1)", 
+            "if i=1 then"],
         correctanswer: 2,
     }
 
